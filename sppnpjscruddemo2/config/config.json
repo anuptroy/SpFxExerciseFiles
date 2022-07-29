@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cruddemousingsppnpjslibrary-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cruddemousingsppnpjslibrary/CruddemousingsppnpjslibraryWebPart.js",
+          "manifest": "./src/webparts/cruddemousingsppnpjslibrary/CruddemousingsppnpjslibraryWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CruddemousingsppnpjslibraryWebPartStrings": "lib/webparts/cruddemousingsppnpjslibrary/loc/{locale}.js"
+  }
+}
