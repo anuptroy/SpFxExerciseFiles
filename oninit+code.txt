@@ -1,0 +1,10 @@
+  public onInit(): Promise<void> {
+
+    return super.onInit().then(_ => {
+  
+      pnp.setup({
+        spfxContext: this.context
+      });
+      
+    });
+  }
